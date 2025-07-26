@@ -1,11 +1,11 @@
 
-# 🧠 Task 3 – Twitter Sentiment Analysis
+#  Task 3 – Twitter Sentiment Analysis
 
 This project analyzes sentiment-based text data from Twitter. It focuses on cleaning raw tweet data, visualizing word frequency patterns, and calculating sentiment scores for top-mentioned brands.
 
 ---
 
-## 🛠️ Tech Stack & Libraries
+## 🛠Tech Stack & Libraries
 
 - **Python 3.x**
 - **Jupyter Notebook**
@@ -18,14 +18,14 @@ This project analyzes sentiment-based text data from Twitter. It focuses on clea
 
 ---
 
-## 📂 Files Used
+## Files Used
 
 - `twitter_training.csv`:  
   Contains 4 columns – `ID`, `Entity`, `Sentiment`, and `Tweet`.
 
 ---
 
-## 🧼 Data Cleaning & Preprocessing
+## Data Cleaning & Preprocessing
 
 - Removed:
   - URLs, hashtags, mentions, and punctuation
@@ -36,7 +36,7 @@ This project analyzes sentiment-based text data from Twitter. It focuses on clea
 
 ---
 
-## 📊 Visualizations
+## Visualizations
 
 > **Note:** The notebook contains 11 visualizations in total, including bar charts and word clouds for each sentiment category.  
 > Below is a sample preview of just one:
@@ -46,7 +46,7 @@ This project analyzes sentiment-based text data from Twitter. It focuses on clea
 
 ---
 
-## 🔍 Insights
+## Insights
 
 - **Top Words per Sentiment:**  
   Each sentiment class (Positive, Negative, Neutral) shows unique high-frequency terms after refinement and lemmatization.
@@ -59,7 +59,7 @@ This project analyzes sentiment-based text data from Twitter. It focuses on clea
 
 ---
 
-## 🚀 How to Run
+## How to Run
 
 1. Clone the repository or download the `.ipynb` notebook and `twitter_training.csv` file.
 2. Install the required libraries using pip:
