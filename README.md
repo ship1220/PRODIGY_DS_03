@@ -50,7 +50,7 @@ This project analyzes sentiment-based text data from Twitter. It focuses on clea
 
 ## Key Insights from Twitter Sentiment Analysis
 
-- **Gaming Dominates**: The word **"game"** appeared over 8,000 times — proving the dataset is heavily skewed toward the gaming community.
+- **Gaming Dominates**: The word **"game"** appeared over 8,000 times - proving the dataset is heavily skewed toward the gaming community.
 
 - **Play = Engagement**: Frequent use of **"play"**, **"update"**, **"patch"**, and **"server"** reflects active gameplay and user frustration during technical issues.
 
@@ -59,7 +59,7 @@ This project analyzes sentiment-based text data from Twitter. It focuses on clea
   - Negative: **crash**, **fail**, **not working** (bugs, server issues).
   - Neutral: **release**, **update**, **feature** (official news/posts).
 
-- **Emotional Tone**: Frequent words like **"I"**, **"my"**, and **"you"** show tweets are personal, not generic — users feel emotionally connected to brands.
+- **Emotional Tone**: Frequent words like **"I"**, **"my"**, and **"you"** show tweets are personal, not generic - users feel emotionally connected to brands.
 
 - **Top Brand Sentiment**:
   -  **Microsoft**: Most positive.
