@@ -5,7 +5,7 @@ This project analyzes sentiment-based text data from Twitter. It focuses on clea
 
 ---
 
-## 🛠Tech Stack & Libraries
+## Tech Stack & Libraries
 
 - **Python 3.x**
 - **Jupyter Notebook**
