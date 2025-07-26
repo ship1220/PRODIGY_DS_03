@@ -20,7 +20,7 @@ This project analyzes sentiment-based text data from Twitter. It focuses on clea
 
 ## Files Used
 
-- `twitter_training.csv`:  
+- Dataset used: `twitter_training.csv`:  
   Contains 4 columns – `ID`, `Entity`, `Sentiment`, and `Tweet`.
 
 ---
@@ -42,22 +42,31 @@ This project analyzes sentiment-based text data from Twitter. It focuses on clea
 > Below is a sample preview of just one:
 
 ### Net Sentiment Score per Brand
-![Net Sentiment Score per Brand](net_sentiment_score.png)
+![Net Sentiment Score per Brand](barplot.png)
 
 ---
 
 ## Insights
 
-- **Top Words per Sentiment:**  
-  Each sentiment class (Positive, Negative, Neutral) shows unique high-frequency terms after refinement and lemmatization.
+## Key Insights from Twitter Sentiment Analysis
 
-- **Word Clouds:**  
-  Clearly visualized dominant vocabulary for each sentiment — useful for understanding tone and topics.
+- **Gaming Dominates**: The word **"game"** appeared over 8,000 times — proving the dataset is heavily skewed toward the gaming community.
 
-- **Brand Sentiment Scores:**  
-  The top 10 most mentioned brands were analyzed based on sentiment scores, revealing which brands were viewed most positively or negatively.
+- **Play = Engagement**: Frequent use of **"play"**, **"update"**, **"patch"**, and **"server"** reflects active gameplay and user frustration during technical issues.
 
----
+- **Sentiment Vocabulary**:
+  - Positive: **love**, **awesome**, **good** (feature praise, excitement).
+  - Negative: **crash**, **fail**, **not working** (bugs, server issues).
+  - Neutral: **release**, **update**, **feature** (official news/posts).
+
+- **Emotional Tone**: Frequent words like **"I"**, **"my"**, and **"you"** show tweets are personal, not generic — users feel emotionally connected to brands.
+
+- **Top Brand Sentiment**:
+  -  **Microsoft**: Most positive.
+  -  **Facebook**: Most negative.
+  -  **LeagueOfLegends**: Most neutral.
+  -  **TomClancysRainbowSix**: Most mentioned overall.
+
 
 ## How to Run
 
